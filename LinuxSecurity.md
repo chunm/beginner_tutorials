@@ -138,7 +138,7 @@ This is very specific to this system. Typically a key based approach will actual
 ~~~
 ## Exercise
 To demonstrate the importance of the above we will assume our server has been configured incorrectly, especially by the lazy server admin named bozo. Bozo assumes his server is secure and has mistakenly granted all permissions to his home folder (why not? he is the only one who has access to the server anyway).  
-We will use the webserver to gain access to his home folder and steal the private keys that will all us to log in as him even without a password. Navigate to:
+We will use the webserver to gain access to his home folder and steal the private keys that will allow us to log in as him even without a password. Navigate to:
 ~~~
 	http://yourvm/files.php
 ~~~
